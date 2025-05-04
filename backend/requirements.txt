@@ -1,0 +1,11 @@
+llama-index==0.12.28
+llama-index-core==0.12.28
+llama-index-readers-file==0.4.7
+llama-index-llms-together==0.3.1
+llama-index-embeddings-together
+llama-index-embeddings-huggingface
+llama-index-llms-openai
+python-dotenv
+PyMuPDF==1.23.22
+uvicorn
+fastapi

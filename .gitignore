@@ -1,0 +1,17 @@
+# Python
+*.pyc
+__pycache__/
+env/
+venv/
+
+# React
+node_modules/
+frontend/node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# OS system files
+.DS_Store
