@@ -82,7 +82,7 @@ PDF-QA-APP/
    uvicorn main:app --reload
 
    
-##💻 Frontend
+### 💻 Frontend
 
 1. Navigate to the frontend directory:
    ```bash
@@ -98,15 +98,16 @@ PDF-QA-APP/
 
 
 
-##📝 Notes
+### 📝 Notes
+
 Make sure the backend is running before asking questions.
 The app supports only one PDF at a time (previous uploads are overwritten).
 Input truncation is handled for LLM token limitations.
 
 
 
-##🙋‍♂️ Author
+### 🙋‍♂️ Author
+
 Nagesh Cheviti
-GitHub Profile
 
 
