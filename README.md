@@ -36,19 +36,6 @@ An interactive web application that allows users to upload a PDF and ask questio
 ---
 
 ## 📁 Project Structure
-PDF-QA-APP/
-├── backend/
-│   ├── uploads/           # Stores uploaded PDFs
-│   ├── utils/
-│   │   └── pdf_utils.py   # Contains text extraction and LLM query logic
-│   ├── main.py            # FastAPI app entry point
-│   ├── .env               # API key for TogetherAI
-├── frontend/
-│   ├── src/
-│   │   └── App.js         # React component with upload + Q&A chat UI
-│   ├── public/Vector.svg  # Send icon
-│   └── App.css 
----
 
 ```
 PDF-QA-APP/
