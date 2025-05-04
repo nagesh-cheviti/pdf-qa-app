@@ -48,10 +48,27 @@ PDF-QA-APP/
 │   │   └── App.js         # React component with upload + Q&A chat UI
 │   ├── public/Vector.svg  # Send icon
 │   └── App.css 
-
-
-
 ---
+
+```
+PDF-QA-APP/
+├── backend/
+│   ├── uploads/             # Stores uploaded PDFs
+│   ├── utils/
+│   │   └── pdf_utils.py     # Text extraction and LLM query logic
+│   ├── main.py              # FastAPI app entry point
+│   ├── requirements.txt     # Required dependencies
+│   └── .env                 # API key for TogetherAI
+├── frontend/
+│   ├── src/
+│   │   └── App.js           # React upload + Q&A chat UI
+│   ├── public/
+│   │   └── Vector.svg       # Send icon
+│   └── App.css              # Chat styling
+├── screenshots/
+│   └── ui-demo-pic2.png     # Demo screenshot for README
+```
+
 
 ## ⚙️ Setup Instructions
 
