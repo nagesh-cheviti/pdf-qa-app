@@ -1,0 +1,30 @@
+Nagesh Cheviti
++91 9014435884 | chevitinagesh123@gmail.com | Linkedin
+EDUCATION
+National Institute of Technology, Calicut
+BTech in Mechanical Engineering | GPA : 7.21
+July 2019 – May 2023
+Narayana Jr. College, Hyderabad
+Higher Secondary Education | % : 97.3
+June 2017 – May 2019
+ZP High School, Nalgonda
+Secondary Education | GPA : 9.5
+June 2016 – May 2017
+EXPERIENCE
+ABC Fitness | Software Development Engineer II
+Mar 2025 – Present
+– Designed and optimized scalable software solutions by writing and maintaining clean, efficient, and high-performance
+code, ensuring seamless functionality, security, and performance across various applications. Led debugging
+initiatives, reducing software defects and improving system efficiency.
+– Implemented new features and enhanced system functionality by leveraging Java, React, and SQL while collaborating
+with cross-functional teams. Utilized Git for version control and Agile methodologies to streamline the development
+process, accelerating feature delivery.
+– Java/ Spring/ React js/ Oracle DB/ SQL/ Spring Boot
+Maybank | Full Stack Developer
+June 2023 – Feb 2025
+– Lead the development and maintenance of core products in the Balance Sheet Management domain, optimizing
+financial data tracking, analysis, and reporting.
+– Designed and implemented solutions for Transaction Monitoring and Name Screening projects, developing robust APIs
+to enhance data security and compliance across banking operations. Enhance systems for interest rate risk, liquidity
+risk, and capital allocation modeling, ensuring compliance with regulatory standards.
+– Develop APIs, backend infrastructure, and user interfaces to support the efficient grouping of entities like co
