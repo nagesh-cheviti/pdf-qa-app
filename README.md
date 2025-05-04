@@ -36,4 +36,70 @@ An interactive web application that allows users to upload a PDF and ask questio
 ---
 
 ## 📁 Project Structure
+PDF-QA-App/ ├── backend/ │ ├── uploads/ # Uploaded PDFs │ ├── utils/ │ │ └── pdf_utils.py # Text extraction + LLM querying │ ├── main.py # FastAPI app │ └── .env # Together.ai API key ├── frontend/ │ ├── src/ │ │ └── App.js # Main React component │ ├── public/Vector.svg # Send icon │ └── App.css # Styling ├── screenshots/ │ └── demo.png # Demo screenshot for README
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ Setup Instructions
+
+### Backend
+
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+Create a virtual environment and activate it:
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Create a .env file and add your TogetherAI key:
+
+env
+Copy
+Edit
+TOGETHER_API_KEY=your_api_key_here
+Start the backend server:
+
+bash
+Copy
+Edit
+uvicorn main:app --reload
+Frontend
+Navigate to the frontend directory:
+
+bash
+Copy
+Edit
+cd frontend
+Install dependencies:
+
+npm install
+Start the React development server:
+npm start
+✅ Notes
+Make sure the backend is running before asking questions.
+
+The app supports only one PDF at a time (previous uploads are overwritten).
+
+Input truncation is handled for LLM token limitations.
+
+📄 License
+This project is open-sourced under the MIT License.
+
+🙋‍♂️ Author
+Nagesh Cheviti
+GitHub Profile
+
 
