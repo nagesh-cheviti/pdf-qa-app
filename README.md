@@ -36,11 +36,20 @@ An interactive web application that allows users to upload a PDF and ask questio
 ---
 
 ## 📁 Project Structure
-PDF-QA-App/ ├── backend/ │ ├── uploads/ # Uploaded PDFs │ ├── utils/ │ │ └── pdf_utils.py # Text extraction + LLM querying │ ├── main.py # FastAPI app │ └── .env # Together.ai API key ├── frontend/ │ ├── src/ │ │ └── App.js # Main React component │ ├── public/Vector.svg # Send icon │ └── App.css # Styling ├── screenshots/ │ └── demo.png # Demo screenshot for README
+PDF-QA-APP/
+├── backend/
+│   ├── uploads/           # Stores uploaded PDFs
+│   ├── utils/
+│   │   └── pdf_utils.py   # Contains text extraction and LLM query logic
+│   ├── main.py            # FastAPI app entry point
+│   ├── .env               # API key for TogetherAI
+├── frontend/
+│   ├── src/
+│   │   └── App.js         # React component with upload + Q&A chat UI
+│   ├── public/Vector.svg  # Send icon
+│   └── App.css 
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -51,54 +60,52 @@ Edit
 1. Navigate to the backend directory:
    ```bash
    cd backend
-Create a virtual environment and activate it:
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
+   
+2. Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Create a .env file and add your TogetherAI key:
+   
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-env
-Copy
-Edit
-TOGETHER_API_KEY=your_api_key_here
-Start the backend server:
+   
+4. Create a .env file and add your TogetherAI key:
+   ```bash
+   TOGETHER_API_KEY=your_api_key_here
 
-bash
-Copy
-Edit
-uvicorn main:app --reload
-Frontend
-Navigate to the frontend directory:
+5. Start the backend server:
+   ```bash
+   uvicorn main:app --reload
 
-bash
-Copy
-Edit
-cd frontend
-Install dependencies:
+   
+##💻 Frontend
 
-npm install
-Start the React development server:
-npm start
-✅ Notes
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+
+2. Install dependencies:
+   ```bash
+   npm install
+   
+3. Start the React development server:
+    ```bash
+   npm start
+
+
+
+##📝 Notes
 Make sure the backend is running before asking questions.
-
 The app supports only one PDF at a time (previous uploads are overwritten).
-
 Input truncation is handled for LLM token limitations.
 
-📄 License
-This project is open-sourced under the MIT License.
 
-🙋‍♂️ Author
+
+##🙋‍♂️ Author
 Nagesh Cheviti
 GitHub Profile
 
